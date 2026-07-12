@@ -1,90 +1,24 @@
-# 中小企業診断士1次アプリ Vercel公開版（同期診断機能付き）
+# 中小企業診断士1次 直前1か月ブースター（経営情報システム追加版）
 
-## ファイル構成
+## 変更点
+- 経営情報システムを追加
+- 収録問題数：258問
+- 経営情報システム：69問追加
+- 用語カード：40枚
+- 30日プランを4科目対応に変更
+- 科目別カードに「着手数」「着手率」「未克服誤答」「60点目安」を追加
+- ミニ模試を4科目均等出題に変更
 
-GitHubリポジトリの直下に以下を置いてください。
+## Vercel反映方法
+既存リポジトリの `index.html` をこのフォルダのものに差し替えて push してください。
+Firebase Rules は変更不要ですが、初回導入時や同期エラー時は `firebase.rules` をFirestore Rulesに貼り替えてください。
 
-```text
-/
-├─ index.html
-├─ firebase.rules
-├─ vercel.json
-└─ README_Vercel公開手順.md
-```
+## 60点目安
+回答済み数は反復回数です。
+本試験の安定度を見る場合は、各科目で以下を目安にしてください。
 
-## Vercel設定
+- 着手率：55%以上
+- アプリ内正答率：65%以上
+- 未克服誤答：15問以下
 
-- Framework Preset: Other
-- Build Command: 空欄
-- Output Directory: 空欄
-- Root Directory: リポジトリ直下
-
-## Firebase側で必要な設定
-
-1. Authentication → Sign-in method → Google を有効化
-2. Authentication → Settings → Authorized domains にVercelの本番ドメインを追加
-   - 例: `xxxxx.vercel.app`
-3. Firestore Database を作成
-4. `firebase.rules` の内容を Firestore Rules に貼り付けて公開
-
-## 追加した診断機能
-
-- 同期ステータスの詳細表示
-  - Firebase設定
-  - Firebase SDK読込
-  - Googleログイン状態
-  - Firestore初期化
-  - 最終保存
-  - 最終読込
-  - 接続テスト結果
-  - 端末ID
-- エラー詳細表示
-  - エラーコード
-  - エラーメッセージ
-  - よくある原因
-- 接続テストボタン
-  - Googleログイン確認
-  - Firestoreへの書き込み
-  - Firestoreからの読み込み
-  - ログインユーザーIDとの一致確認
-- 同期ログ表示
-  - 保存予約中
-  - 自動保存中
-  - 保存成功
-  - 読込成功
-  - 接続テスト成功/失敗
-
-## 確認手順
-
-1. Vercelにデプロイ
-2. Firebaseの承認済みドメインにVercelのドメインを追加
-3. アプリを開く
-4. 「同期・データ管理」を開く
-5. Googleアカウントでログイン
-6. 「接続テスト」を押す
-7. 「接続テスト成功：Googleログイン・Firestore読込/書込OK」と表示されれば同期設定は完了です。
-
-## よくあるエラー
-
-### auth/unauthorized-domain
-Firebase Authentication の Authorized domains に Vercel のドメインが入っていません。
-
-### Missing or insufficient permissions
-Firestore Rules が未反映、または Firestore Database が未作成の可能性があります。
-
-### Firebase SDKを読み込めませんでした
-ネットワーク、広告ブロック、ブラウザ制限、CSP設定などで Firebase SDK が読み込めていません。
-
-### Googleアカウントにログインしていません
-先に「Googleアカウントでログイン」を押してください。
-
-
-## 今回の出題ロジック調整
-
-この版では、同じ問題が続けて出すぎないように、以下を追加しています。
-
-- 直近の回答履歴に出た問題は出題スコアを下げる
-- 今日すでに解いた問題は少し出にくくする
-- 前回・前々回セッションに出た問題は出にくくする
-- 「今日の20問」は重要度だけで固定順にせず、未回答・低正答率・重要度を混ぜて抽出する
-- 「誤答のみ復習」は意図的に同じ問題を繰り返します。2回連続正解で克服扱いです。
+安全寄りに見るなら、着手率70%以上・正答率72%以上・未克服誤答8問以下を目標にしてください。
