@@ -9,6 +9,8 @@
 *{box-sizing:border-box} body{margin:0;background:linear-gradient(180deg,#eff6ff 0,#f5f7fb 280px);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.65} button,input,select,textarea{font:inherit} .wrap{max-width:1180px;margin:auto;padding:18px} header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0 8px} .brand h1{margin:0;font-size:clamp(22px,4vw,34px);letter-spacing:.02em}.brand p{margin:2px 0 0;color:var(--muted)} .pill{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:8px 12px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);font-weight:700;color:#334155}.grid{display:grid;gap:16px}.dashboard{grid-template-columns:1.25fr .75fr}@media(max-width:900px){.dashboard{grid-template-columns:1fr} header{align-items:flex-start;flex-direction:column}.nav{position:static!important}} .card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:var(--shadow)} .hero{background:linear-gradient(135deg,#1d4ed8,#3b82f6 55%,#60a5fa);color:white;border:none}.hero .muted{color:#dbeafe}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px}@media(max-width:680px){.stats{grid-template-columns:repeat(2,1fr)}} .stat{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);border-radius:16px;padding:12px}.stat b{font-size:24px;display:block}.muted{color:var(--muted)} .section-title{font-size:18px;font-weight:800;margin:0 0 10px}.nav{position:sticky;top:0;z-index:20;display:flex;gap:8px;overflow:auto;padding:8px 0 14px;background:linear-gradient(180deg,#eff6ff 0,#eff6ffdd 75%,#eff6ff00 100%)} .nav button,.btn{border:0;border-radius:12px;background:#fff;color:#1e293b;padding:10px 13px;font-weight:800;box-shadow:0 5px 14px rgba(15,23,42,.06);cursor:pointer;border:1px solid var(--line);white-space:nowrap}.nav button.active,.btn.primary{background:var(--primary);color:#fff;border-color:var(--primary)} .btn:hover,.nav button:hover{transform:translateY(-1px)} .btn.ghost{background:#f8fafc}.btn.warn{background:#fff7ed;color:#9a3412;border-color:#fed7aa}.btn.ok{background:#ecfdf5;color:#166534;border-color:#bbf7d0}.btn.ng{background:#fef2f2;color:#991b1b;border-color:#fecaca}.btn.small{font-size:13px;padding:7px 10px;border-radius:10px}.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.controls select,.controls input{border:1px solid var(--line);border-radius:12px;padding:10px;background:#fff;min-width:180px}.bars{display:grid;gap:10px}.bar-row{display:grid;grid-template-columns:160px 1fr 70px;gap:10px;align-items:center}@media(max-width:560px){.bar-row{grid-template-columns:1fr}.bar-row span:last-child{text-align:left!important}}.bar{height:12px;border-radius:999px;background:#e5e7eb;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,#60a5fa,#2563eb);width:0}.subject-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}@media(max-width:850px){.subject-grid{grid-template-columns:1fr}}.subject-card{border:1px solid var(--line);border-radius:16px;padding:14px;background:#f8fafc}.subject-card h3{margin:0}.subject-card .big{font-size:28px;font-weight:900}.mode-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}@media(max-width:850px){.mode-grid{grid-template-columns:1fr}}.mode{padding:14px;border:1px solid var(--line);border-radius:16px;background:#fff;cursor:pointer}.mode:hover{border-color:#93c5fd;background:#f8fbff}.mode b{display:block;font-size:16px}.quiz-box{display:none}.quiz-box.active{display:block}.q-head{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.tag{display:inline-flex;border-radius:999px;padding:4px 9px;background:#eef2ff;color:#3730a3;font-size:12px;font-weight:800;margin-right:6px}.tag.orange{background:#fff7ed;color:#9a3412}.tag.green{background:#ecfdf5;color:#166534}.question{font-size:20px;font-weight:900;line-height:1.55;margin:18px 0}.choices{display:grid;gap:10px}.choice{display:flex;gap:10px;text-align:left;width:100%;padding:14px;border-radius:14px;border:1px solid var(--line);background:#fff;cursor:pointer}.choice:hover{border-color:#93c5fd;background:#eff6ff}.choice .letter{display:inline-grid;place-items:center;min-width:28px;height:28px;border-radius:50%;background:#e2e8f0;font-weight:900}.choice.correct{border-color:#86efac;background:#f0fdf4}.choice.correct .letter{background:#16a34a;color:#fff}.choice.wrong{border-color:#fca5a5;background:#fef2f2}.choice.wrong .letter{background:#dc2626;color:#fff}.explain{display:none;margin-top:14px;border-radius:16px;padding:14px;background:#f8fafc;border:1px solid var(--line)}.explain.show{display:block}.list{display:grid;gap:10px}.plan-item,.term-item,.wrong-item{border:1px solid var(--line);border-radius:14px;padding:12px;background:#fff}.plan-item.done{background:#f0fdf4;border-color:#bbf7d0}.plan-item.today{border-color:#2563eb;box-shadow:0 0 0 3px #dbeafe}.term-item{cursor:pointer}.term-body{display:none;margin-top:8px;color:#334155}.term-item.open .term-body{display:block}.search{width:100%;border:1px solid var(--line);border-radius:14px;padding:12px;background:#fff}.footer{font-size:12px;color:var(--muted);padding:22px 0}.hidden{display:none!important}.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:850px){.two{grid-template-columns:1fr}}.kbd{font-family:ui-monospace,Menlo,Consolas,monospace;background:#f1f5f9;border:1px solid #e2e8f0;border-bottom-width:2px;border-radius:6px;padding:2px 6px}.toast{position:fixed;right:16px;bottom:16px;background:#0f172a;color:white;border-radius:14px;padding:12px 14px;box-shadow:var(--shadow);opacity:0;transform:translateY(8px);transition:.2s;z-index:100}.toast.show{opacity:1;transform:translateY(0)} .danger-zone{border:1px dashed #fecaca;background:#fff7f7}.note{border-left:5px solid var(--accent);background:#fffbeb;padding:12px;border-radius:12px}.mini{font-size:13px}.score-badge{font-size:40px;font-weight:1000;line-height:1}.confetti{font-size:28px}
 
 .sync-status{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:800;background:#f1f5f9;color:#334155;border:1px solid var(--line)}.sync-status.on{background:#ecfdf5;color:#166534;border-color:#bbf7d0}.sync-status.off{background:#fff7ed;color:#9a3412;border-color:#fed7aa}.sync-status.err{background:#fef2f2;color:#991b1b;border-color:#fecaca}.history-summary{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0}@media(max-width:780px){.history-summary{grid-template-columns:repeat(2,1fr)}}.history-stat{border:1px solid var(--line);border-radius:14px;background:#f8fafc;padding:12px}.history-stat b{display:block;font-size:22px}.history-item{border:1px solid var(--line);border-radius:14px;background:#fff;padding:12px}.history-item.ok{border-left:5px solid #16a34a}.history-item.ng{border-left:5px solid #dc2626}.sync-url{word-break:break-all;background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:10px}.mono{font-family:ui-monospace,Menlo,Consolas,monospace}.cloud-note{border-left:5px solid #2563eb;background:#eff6ff;padding:12px;border-radius:12px}.sync-status.saving{background:#eff6ff;color:#1d4ed8;border-color:#bfdbfe}.sync-status.testing{background:#f5f3ff;color:#6d28d9;border-color:#ddd6fe}.sync-status.loading{background:#eef2ff;color:#4338ca;border-color:#c7d2fe}.sync-detail{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:12px}@media(max-width:720px){.sync-detail{grid-template-columns:1fr}}.sync-check{border:1px solid var(--line);background:#f8fafc;border-radius:12px;padding:10px}.sync-check b{display:block}.sync-error{margin-top:12px;border-left:5px solid #dc2626;background:#fef2f2;border-radius:12px;padding:12px;color:#7f1d1d}.sync-log{margin-top:12px;background:#0f172a;color:#e5e7eb;border-radius:12px;padding:12px;max-height:180px;overflow:auto;white-space:pre-wrap}.sync-log:empty{display:none}.inline-code{font-family:ui-monospace,Menlo,Consolas,monospace;background:#f1f5f9;border-radius:6px;padding:1px 5px}
+
+.policy-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}.policy-card{border:1px solid var(--line);border-radius:16px;background:#fff;padding:14px}.policy-card b{display:block}.policy-kpi{font-size:28px;font-weight:1000}.policy-table{width:100%;border-collapse:separate;border-spacing:0 8px}.policy-table th{font-size:12px;color:var(--muted);text-align:left;padding:0 8px}.policy-table td{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 8px;vertical-align:top}.policy-table td:first-child{border-left:1px solid var(--line);border-radius:12px 0 0 12px;font-weight:800}.policy-table td:last-child{border-right:1px solid var(--line);border-radius:0 12px 12px 0}.policy-mini-list{display:grid;gap:8px}.policy-mini-list div{background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:10px}.policy-source{font-size:12px;color:var(--muted);margin-top:8px}.policy-focus{border-left:5px solid #2563eb;background:#eff6ff;padding:12px;border-radius:12px}
 </style>
 </head>
 <body>
@@ -22,6 +24,7 @@
   <button data-view="quiz">問題演習</button>
   <button data-view="review">誤答復習</button>
   <button data-view="cards">用語カード</button>
+  <button data-view="policy">政策特化</button>
   <button data-view="plan">30日プラン</button>
   <button data-view="history">履歴</button>
   <button data-view="data">同期・データ管理</button>
@@ -32,7 +35,7 @@
     <div class="card hero">
       <h2 style="margin:0 0 8px">今日やること</h2>
       <p class="muted" id="todayTask">初回起動日を登録しています...</p>
-      <div class="controls" style="margin-top:14px"><button class="btn primary" onclick="startToday()">今日の20問を開始</button><button class="btn" onclick="showView('review')">誤答だけ復習</button><button class="btn" onclick="startQuiz({mode:'weak',count:20})">弱点優先20問</button></div>
+      <div class="controls" style="margin-top:14px"><button class="btn primary" onclick="startToday()">今日の20問を開始</button><button class="btn" onclick="showView('review')">誤答だけ復習</button><button class="btn" onclick="startQuiz({mode:'weak',count:20})">弱点優先20問</button><button class="btn ok" onclick="showView('policy')">中小政策特化</button></div>
       <div class="stats"><div class="stat"><b id="statAnswered">0</b>回答済み</div><div class="stat"><b id="statRate">0%</b>正答率</div><div class="stat"><b id="statWrong">0</b>未克服の誤答</div><div class="stat"><b id="statStreak">0</b>連続学習日</div></div>
     </div>
     <div class="card">
@@ -88,6 +91,39 @@
     <div id="termList" class="list" style="margin-top:16px"></div>
   </div>
 </section>
+
+<section id="policy" class="view hidden">
+  <div class="card">
+    <h2 class="section-title">中小企業経営・中小企業政策 特化パック</h2>
+    <p class="muted">この科目は、制度名・対象者・支援内容・実施機関・白書テーマの混同が得点差になります。ここでは過去問型演習に加えて、制度比較と直前暗記をまとめて確認できます。</p>
+    <div class="policy-focus mini"><b>使い方：</b>①白書・動向 → ②制度比較 → ③定義・機関 → ④誤答のみ、の順で1日1周してください。試験直前は「制度名を見て対象者・実施機関・支援内容が言えるか」を重視します。</div>
+    <div class="policy-grid" style="margin-top:14px" id="policyStats"></div>
+    <div class="controls" style="margin-top:14px">
+      <button class="btn primary" onclick="startPolicyQuiz('final')">政策ファイナル30問</button>
+      <button class="btn" onclick="startPolicyQuiz('whitepaper')">白書・経営動向20問</button>
+      <button class="btn" onclick="startPolicyQuiz('systems')">制度比較20問</button>
+      <button class="btn" onclick="startPolicyQuiz('definition')">定義・統計15問</button>
+      <button class="btn warn" onclick="startQuiz({mode:'wrong'})">誤答のみ</button>
+    </div>
+  </div>
+  <div class="two" style="margin-top:16px">
+    <div class="card">
+      <h2 class="section-title">直前暗記の軸</h2>
+      <div id="policyChecklist" class="policy-mini-list"></div>
+    </div>
+    <div class="card">
+      <h2 class="section-title">白書・施策で狙われやすい方向性</h2>
+      <div id="policyThemes" class="policy-mini-list"></div>
+      <div class="policy-source">2026年版中小企業白書・小規模企業白書、2026年度版中小企業施策利用ガイドブックの論点を、試験直前確認用に要約しています。</div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:16px">
+    <h2 class="section-title">制度比較カード</h2>
+    <p class="muted mini">選択肢で混ぜられやすい制度を、目的・対象・混同ポイントで整理しています。ざっと読んでから制度比較20問を回すと効果的です。</p>
+    <div style="overflow:auto"><table class="policy-table"><thead><tr><th>制度・機関</th><th>何を支援するか</th><th>混同しやすいポイント</th></tr></thead><tbody id="policyCompareBody"></tbody></table></div>
+  </div>
+</section>
+
 <section id="plan" class="view hidden">
   <div class="card">
     <h2 class="section-title">30日プラン</h2>
@@ -163,6 +199,51 @@ const FIREBASE_CONFIG = {
   appId: "1:678958301876:web:5ac90d7d1d631de56f8de1"
 };
 let cloud={ready:false,db:null,auth:null,user:null,docRef:null,error:null,errorCode:null,saveTimer:null,lastSavedAt:null,lastLoadedAt:null,lastTestAt:null,lastStatusAt:null,unsub:null,pulling:false,syncState:'off',statusText:'クラウド未初期化',log:[],testing:false,pendingSave:false};
+
+const POLICY_SUBJECT = '中小企業経営・中小企業政策';
+const POLICY_COMPARE = [
+ {name:'経営力向上計画',support:'人材育成、財務管理、設備投資などで経営力を高める計画。認定により税制・金融支援等と結びつく。',trap:'経営革新計画は「新事業活動」が軸。事業継続力強化計画は防災・減災が軸。'},
+ {name:'経営革新計画',support:'新商品、新サービス、新生産方式など新たな取組により経営向上を図る計画。',trap:'単なる設備更新ではなく「新たな取組」がポイント。経営力向上計画と混同しない。'},
+ {name:'事業継続力強化計画',support:'自然災害等に備えた防災・減災の事前対策を計画化し、経済産業大臣の認定を受ける制度。',trap:'売上拡大や新商品開発ではなく、BCP・防災減災の簡易版として問われやすい。'},
+ {name:'小規模事業者持続化補助金',support:'小規模事業者の販路開拓や業務効率化の取組を支援する補助金。',trap:'小規模事業者が対象。IT導入補助金やものづくり補助金と対象経費・目的が違う。'},
+ {name:'ものづくり補助金',support:'革新的な製品・サービス開発や生産プロセス改善等の設備投資を支援する補助金。',trap:'名称に「ものづくり」とあるが、製造業限定と決めつけない。設備投資・革新性が軸。'},
+ {name:'IT導入補助金',support:'ITツール導入による業務効率化、売上向上、インボイス対応等を支援。',trap:'ITツール導入が中心。設備投資全般や研究開発支援ではない。'},
+ {name:'省力化投資補助金',support:'人手不足対応として、省力化設備・システム導入を支援。カタログ注文型と一般型を意識。',trap:'単なるIT化ではなく「省力化・人手不足対応」が軸。'},
+ {name:'信用保証協会',support:'中小企業の金融機関借入に公的保証を付け、資金調達を円滑にする。',trap:'直接融資を行う日本政策金融公庫と混同しやすい。'},
+ {name:'日本政策金融公庫',support:'政府系金融機関として創業、資金繰り、事業承継等の融資を行う。',trap:'信用保証協会は保証、公庫は融資。役割の違いを押さえる。'},
+ {name:'小規模企業共済',support:'小規模企業の経営者・個人事業主等の退職金準備制度。',trap:'取引先倒産リスクに備える経営セーフティ共済と混同しない。'},
+ {name:'経営セーフティ共済',support:'取引先倒産による連鎖倒産を防ぐための共済制度。',trap:'経営者の退職金ではなく、倒産防止・連鎖倒産防止が目的。'},
+ {name:'よろず支援拠点',support:'売上拡大、経営改善など幅広い相談にワンストップで対応する無料相談拠点。',trap:'研修機関ではない。個別相談・伴走支援の入口として問われやすい。'},
+ {name:'認定経営革新等支援機関',support:'税務・金融・財務等の専門性を活かし、経営改善計画や補助金・金融支援を支援。',trap:'よろず支援拠点のような総合相談窓口と混同しない。'},
+ {name:'事業承継・引継ぎ支援センター',support:'親族内承継、従業員承継、第三者承継・M&A等を支援する公的相談窓口。',trap:'創業支援や販路開拓の機関ではなく、承継・引継ぎが軸。'},
+ {name:'中小企業大学校',support:'中小企業の経営者・管理者・支援担当者向けに研修を提供する機関。',trap:'資金供給や保証ではなく、人材育成・研修が中心。'}
+];
+const POLICY_CHECKLIST = [
+ '中小企業者の定義：業種別に資本金または従業員数で判定。製造3億/300人、卸売1億/100人、小売5千万/50人、サービス5千万/100人。',
+ '小規模企業者：製造業等20人以下、商業・サービス業5人以下。小規模事業者持続化補助金とセットで確認。',
+ '白書は「数字の丸暗記」だけでなく、労働生産性、価格転嫁、人手不足、賃上げ、省力化、経営リテラシーの方向性を押さえる。',
+ '制度問題は「制度名→目的→対象者→支援内容→実施機関」の5点で見る。選択肢は一部だけ正しいことが多い。',
+ '補助金は、販路開拓＝持続化、ITツール＝IT導入、設備投資・革新＝ものづくり、人手不足対応＝省力化でまず切り分ける。',
+ '金融支援は、公庫＝融資、信用保証協会＝保証、経営改善計画策定支援＝金融支援を伴う改善計画で整理する。'
+];
+const POLICY_THEMES = [
+ '2026年版中小企業白書は「強い中小企業」に向けた「稼ぐ力」の強化が大テーマ。現状維持ではなく、成長・変革への挑戦を重視。',
+ '労働供給制約・人手不足の下では、省力化投資、業務効率化、人材確保・活用、賃上げ原資の確保が横断テーマになる。',
+ '小規模企業白書では、経営リテラシー向上、企業間連携、支援機関の支援力強化が重要論点。',
+ '価格転嫁は、賃上げ・投資・収益力確保と結びつく。下請取引適正化、パートナーシップ構築宣言などとも関連づける。',
+ '事業承継・M&Aは後継者不足だけでなく、地域雇用、技術・ノウハウの維持、PMIまで含めて問われやすい。'
+];
+const POLICY_EXTRA_TERMS = [
+ {subject:POLICY_SUBJECT,term:'政策暗記軸：5点セット',body:'制度名を見たら、目的・対象者・支援内容・実施機関・混同制度をセットで確認する。'},
+ {subject:POLICY_SUBJECT,term:'2026白書：強い中小企業',body:'「稼ぐ力」の強化、労働生産性、人材確保・活用、経営リテラシーが軸。'},
+ {subject:POLICY_SUBJECT,term:'省力化投資補助金',body:'人手不足対応の省力化設備・システム導入を支援。カタログ注文型と一般型を区別する。'},
+ {subject:POLICY_SUBJECT,term:'補助金の切り分け',body:'販路開拓＝持続化、ITツール＝IT導入、設備投資・革新＝ものづくり、省力化＝省力化投資。'},
+ {subject:POLICY_SUBJECT,term:'支援機関の切り分け',body:'よろず＝総合相談、認定支援機関＝財務・計画支援、中小企業大学校＝研修、支援センター＝承継。'},
+ {subject:POLICY_SUBJECT,term:'公庫と信用保証協会',body:'日本政策金融公庫は融資、信用保証協会は金融機関借入の保証。役割が違う。'}
+];
+APP_DATA.terms = APP_DATA.terms.concat(POLICY_EXTRA_TERMS);
+APP_DATA.generated = '2026-07-14-80-challenge-policy-pack';
+
 let state = loadState();
 let current = {list:[], index:0, score:0, answered:false, session:[], sessionId:null, opts:{}, finished:false};
 function getDeviceId(){let id=localStorage.getItem(DEVICE_KEY); if(!id){id='dev_'+Date.now().toString(36)+'_'+Math.random().toString(36).slice(2,8); localStorage.setItem(DEVICE_KEY,id);} return id;}
@@ -181,7 +262,7 @@ function shuffle(arr){const a=[...arr];for(let i=a.length-1;i>0;i--){const j=Mat
 function subjects(){return [...new Set(APP_DATA.questions.map(q=>q.subject))];}
 function areas(subj){let qs=APP_DATA.questions.filter(q=>subj==='ALL'||q.subject===subj);return [...new Set(qs.map(q=>q.area))].sort();}
 function qById(id){return APP_DATA.questions.find(q=>q.id===id)}
-function showView(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('#nav button').forEach(b=>b.classList.toggle('active',b.dataset.view===id)); if(id==='review')renderWrongList(); if(id==='cards')renderTerms(); if(id==='plan')renderPlan(); if(id==='history')renderHistory(); if(id==='data')renderSyncUI();}
+function showView(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('#nav button').forEach(b=>b.classList.toggle('active',b.dataset.view===id)); if(id==='review')renderWrongList(); if(id==='cards')renderTerms(); if(id==='policy')renderPolicyPack(); if(id==='plan')renderPlan(); if(id==='history')renderHistory(); if(id==='data')renderSyncUI();}
 document.getElementById('nav').addEventListener('click',e=>{if(e.target.matches('button[data-view]')) showView(e.target.dataset.view)});
 function initSelects(){const ss=[document.getElementById('subjectSelect'),document.getElementById('termSubject'),document.getElementById('historySubject')].filter(Boolean); ss.forEach(sel=>{subjects().forEach(s=>{const o=document.createElement('option');o.value=s;o.textContent=s;sel.appendChild(o);});}); document.getElementById('subjectSelect').addEventListener('change',renderAreaSelect); document.getElementById('termSubject').addEventListener('change',renderTerms); const hs=document.getElementById('historySubject'); if(hs) hs.addEventListener('change',renderHistory); const hr=document.getElementById('historyResult'); if(hr) hr.addEventListener('change',renderHistory); renderAreaSelect();}
 function renderAreaSelect(){const subj=document.getElementById('subjectSelect').value; const sel=document.getElementById('areaSelect'); sel.innerHTML='<option value="ALL">全分野</option>'; areas(subj).forEach(a=>{const o=document.createElement('option');o.value=a;o.textContent=a;sel.appendChild(o);});}
@@ -213,6 +294,11 @@ function finishQuiz(){document.getElementById('quizBox').classList.remove('activ
 function backToSetup(){document.getElementById('setup').classList.remove('hidden'); document.getElementById('resultBox').classList.add('hidden'); document.getElementById('quizBox').classList.remove('active');}
 function renderWrongList(){const box=document.getElementById('wrongList'); const ids=Object.keys(state.mistakes||{}); if(!ids.length){box.innerHTML='<div class="note">未克服の誤答はありません。弱点優先モードで未回答・低正答率問題を進めてください。</div>'; return;} box.innerHTML=''; ids.map(qById).filter(Boolean).forEach(q=>{const m=state.mistakes[q.id]; const div=document.createElement('div'); div.className='wrong-item'; div.innerHTML=`<b>${q.subject}</b> <span class="tag orange">${q.area}</span><br>${q.question}<br><span class="muted mini">誤答${m.wrong}回／連続正解${m.streak||0}回</span>`; box.appendChild(div);});}
 function renderTerms(){const subj=document.getElementById('termSubject').value; const kw=(document.getElementById('termSearch').value||'').toLowerCase(); const box=document.getElementById('termList'); const list=APP_DATA.terms.filter(t=>(subj==='ALL'||t.subject===subj)&&(!kw||(t.term+t.body+t.subject).toLowerCase().includes(kw))); box.innerHTML=''; list.forEach(t=>{const div=document.createElement('div');div.className='term-item';div.innerHTML=`<b>${t.term}</b><span class="tag" style="margin-left:8px">${t.subject}</span><div class="term-body">${t.body}</div>`; div.onclick=()=>div.classList.toggle('open'); box.appendChild(div);});}
+
+function calcAreaStats(subject, area){let qs=APP_DATA.questions.filter(q=>q.subject===subject&&(area==='ALL'||q.area===area));let ans=0,cor=0,unique=0,wrong=0;qs.forEach(q=>{const a=state.answers[q.id]; if(a){unique++; ans+=a.count||0; cor+=a.correct||0;} if(state.mistakes&&state.mistakes[q.id]) wrong++;}); return {total:qs.length,answered:ans,correct:cor,unique,coverage:qs.length?Math.round(unique/qs.length*100):0,rate:ans?Math.round(cor/ans*100):0,wrong};}
+function renderPolicyPack(){const stats=document.getElementById('policyStats'); if(!stats)return; const overall=calcStats(POLICY_SUBJECT); const mgmt=calcAreaStats(POLICY_SUBJECT,'中小企業経営'); const policy=calcAreaStats(POLICY_SUBJECT,'中小企業政策'); const def1=calcAreaStats(POLICY_SUBJECT,'中小企業の定義'); const def2=calcAreaStats(POLICY_SUBJECT,'小規模企業者'); stats.innerHTML=`<div class="policy-card"><b>科目全体</b><div class="policy-kpi">${overall.rate}%</div><span class="muted mini">着手${overall.unique}/${overall.total}問（${overall.coverage}%）／未克服${overall.wrong}問</span></div><div class="policy-card"><b>白書・経営動向</b><div class="policy-kpi">${mgmt.rate}%</div><span class="muted mini">着手${mgmt.unique}/${mgmt.total}問（${mgmt.coverage}%）</span></div><div class="policy-card"><b>政策・制度</b><div class="policy-kpi">${policy.rate}%</div><span class="muted mini">着手${policy.unique}/${policy.total}問（${policy.coverage}%）</span></div><div class="policy-card"><b>定義・小規模</b><div class="policy-kpi">${Math.round(((def1.rate||0)+(def2.rate||0))/2)}%</div><span class="muted mini">定義${def1.unique}/${def1.total}問、小規模${def2.unique}/${def2.total}問</span></div>`; const checklist=document.getElementById('policyChecklist'); if(checklist) checklist.innerHTML=POLICY_CHECKLIST.map(x=>`<div>${x}</div>`).join(''); const themes=document.getElementById('policyThemes'); if(themes) themes.innerHTML=POLICY_THEMES.map(x=>`<div>${x}</div>`).join(''); const body=document.getElementById('policyCompareBody'); if(body) body.innerHTML=POLICY_COMPARE.map(x=>`<tr><td>${x.name}</td><td>${x.support}</td><td>${x.trap}</td></tr>`).join('');}
+function startPolicyQuiz(kind){const s=POLICY_SUBJECT; if(kind==='whitepaper') return startQuiz({mode:'advanced',subject:s,area:'中小企業経営',count:20}); if(kind==='systems') return startQuiz({mode:'advanced',subject:s,area:'中小企業政策',count:20}); if(kind==='definition') return startQuiz({mode:'priority',subject:s,areas:['中小企業の定義','小規模企業者'],count:15}); return startQuiz({mode:'advanced',subject:s,count:30});}
+
 function renderPlan(){const box=document.getElementById('planList'); const d=dayNo(); box.innerHTML=''; APP_DATA.plan.forEach(p=>{const done=state.planDone[p.day]; const div=document.createElement('div');div.className='plan-item'+(done?' done':'')+(p.day===d?' today':''); div.innerHTML=`<b>Day ${p.day}｜${p.label}</b> ${p.day===d?'<span class="tag green">今日</span>':''} ${done?'<span class="tag green">完了</span>':''}<br>${p.task}<div class="controls" style="margin-top:8px"><button class="btn small primary">この日の問題を解く</button><button class="btn small ok">完了</button></div>`; div.querySelector('.primary').onclick=()=>{const opts={mode:'priority',count:20}; if(p.subject&&p.subject!=='ALL')opts.subject=p.subject; if(p.areas&&p.areas.length)opts.areas=p.areas; startQuiz(opts);}; div.querySelector('.ok').onclick=()=>{state.planDone[p.day]=true; save(); toast('完了にしました');}; box.appendChild(div);});}
 function markTodayDone(){state.planDone[dayNo()]=true; save(); toast('今日のプランを完了にしました');}
 function resetStartDate(){if(confirm('今日をDay1に変更しますか？進捗・誤答履歴は残ります。')){state.startDate=todayStr(); save(); toast('Day1を今日にしました');}}
@@ -245,7 +331,7 @@ async function testCloudConnection(){try{cloud.testing=true; setCloudState('test
 function statusClass(){if(cloud.syncState==='err')return 'err'; if(cloud.syncState==='saving')return 'saving'; if(cloud.syncState==='testing')return 'testing'; if(cloud.syncState==='loading')return 'loading'; if(cloud.ready&&cloud.user)return 'on'; return 'off';}
 function renderSyncUI(){const status=document.getElementById('syncStatus'); const note=document.getElementById('firebaseSetupNote'); const account=document.getElementById('accountInfo'); const box=document.getElementById('shareUrlBox'); const url=document.getElementById('shareUrl'); const signIn=document.getElementById('googleSignInBtn'); const signOut=document.getElementById('googleSignOutBtn'); const detail=document.getElementById('syncDetailPanel'); const errBox=document.getElementById('syncErrorBox'); const logBox=document.getElementById('syncLogBox'); const loggedIn=!!cloud.user; if(signIn)signIn.classList.toggle('hidden',loggedIn); if(signOut)signOut.classList.toggle('hidden',!loggedIn); if(status){status.className='sync-status '+statusClass(); let txt=cloud.statusText||''; if(!txt){txt=cloud.error?'同期エラー':(firebaseConfigured()?(cloud.ready?(loggedIn?'Google同期中':'Googleログイン待ち'):'クラウド接続準備中'):'Firebase未設定：ローカル保存のみ');} status.textContent=txt;} if(detail){const checks=[['Firebase設定',firebaseConfigured()?'OK':'未設定'],['Firebase SDK',typeof firebase!=='undefined'?'読込OK':'未読込'],['Googleログイン',loggedIn?(cloud.user.email||'ログイン中'):'未ログイン'],['Firestore',cloud.db?'初期化OK':'未初期化'],['最終保存',cloud.lastSavedAt?formatDateTime(cloud.lastSavedAt):'未保存'],['最終読込',cloud.lastLoadedAt?formatDateTime(cloud.lastLoadedAt):'未読込'],['接続テスト',cloud.lastTestAt?formatDateTime(cloud.lastTestAt):'未実行'],['端末ID',getDeviceId()]]; detail.innerHTML=checks.map(([k,v])=>`<div class="sync-check"><b>${k}</b><span>${String(v)}</span></div>`).join('');} if(errBox){if(cloud.error){const code=cloud.errorCode?`<div><b>コード：</b><span class="inline-code">${cloud.errorCode}</span></div>`:''; errBox.innerHTML=`<b>エラー詳細</b>${code}<div>${cloud.error}</div><div style="margin-top:6px">よくある原因：Firebase AuthenticationのGoogle有効化漏れ、Authorized domains未追加、Firestore Rules未反映、Firestore Database未作成。</div>`; errBox.classList.remove('hidden');}else{errBox.classList.add('hidden'); errBox.innerHTML='';}} if(logBox){logBox.textContent=(cloud.log||[]).slice(0,12).map(l=>`[${formatDateTime(l.at)}] ${l.kind}: ${l.msg}${l.error?' / '+((l.error.code?l.error.code+': ':'')+l.error.message):''}`).join('\n');} if(account){account.innerHTML=loggedIn?`ログイン中：<b>${cloud.user.email||cloud.user.displayName||'Googleアカウント'}</b>${cloud.lastSavedAt?` ／ 最終保存：${formatDateTime(cloud.lastSavedAt)}`:''}${cloud.lastLoadedAt?` ／ 最終読込：${formatDateTime(cloud.lastLoadedAt)}`:''}`:'Googleログインすると、このGoogleアカウント単位で回答履歴・誤答リスト・30日プランを保存します。';} if(note){note.innerHTML=firebaseConfigured()?`Firebase設定は反映済みです。Vercel公開後は、Firebase AuthenticationのGoogleログイン有効化と、承認済みドメインへの <span class="inline-code">${location.hostname||'Vercelのドメイン'}</span> 追加を確認してください。Firestore RulesもこのZIPの内容に貼り替えてください。`:'このファイルはWeb公開用ですが、クラウド履歴を使うにはFirebase設定が必要です。index.html内の FIREBASE_CONFIG を設定してください。設定前でも端末内保存では利用できます。';} if(box&&url){if(loggedIn){const u=new URL(location.href); u.searchParams.delete('sync'); url.textContent=u.toString(); box.classList.remove('hidden');}else{box.classList.add('hidden');}}}
 async function copyShareUrl(){const url=document.getElementById('shareUrl').textContent; try{await navigator.clipboard.writeText(url); toast('URLをコピーしました');}catch(e){toast('URLを表示しました');}}
-function renderAll(){renderHome(); if(!document.getElementById('review').classList.contains('hidden'))renderWrongList(); if(!document.getElementById('cards').classList.contains('hidden'))renderTerms(); if(!document.getElementById('plan').classList.contains('hidden'))renderPlan(); if(!document.getElementById('history').classList.contains('hidden'))renderHistory(); if(!document.getElementById('data').classList.contains('hidden'))renderSyncUI();}
+function renderAll(){renderHome(); if(!document.getElementById('review').classList.contains('hidden'))renderWrongList(); if(!document.getElementById('cards').classList.contains('hidden'))renderTerms(); if(!document.getElementById('policy').classList.contains('hidden'))renderPolicyPack(); if(!document.getElementById('plan').classList.contains('hidden'))renderPlan(); if(!document.getElementById('history').classList.contains('hidden'))renderHistory(); if(!document.getElementById('data').classList.contains('hidden'))renderSyncUI();}
 initSelects(); document.getElementById('qTotal').textContent=APP_DATA.questions.length; document.getElementById('tTotal').textContent=APP_DATA.terms.length; renderAll(); initCloud();
 </script>
 </body>
