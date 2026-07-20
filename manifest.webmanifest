@@ -1,0 +1,11 @@
+{
+  "name": "中小企業診断士1次 全7科目 直前ブースター",
+  "short_name": "診断士1次",
+  "description": "品質ゲート、確信度判定、弱点自動出題に対応した中小企業診断士1次試験対策アプリ",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#2563eb",
+  "lang": "ja"
+}
