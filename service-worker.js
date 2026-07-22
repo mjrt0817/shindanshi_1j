@@ -1,4 +1,4 @@
-const CACHE_NAME='shindanshi-booster-v3-20260721';
+const CACHE_NAME='shindanshi-booster-v4-20260723';
 const CORE=['./','./index.html','./manifest.webmanifest'];
 const FIREBASE=[
  'https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js',
